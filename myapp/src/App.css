@@ -1,0 +1,42 @@
+
+
+
+.navbar {
+  background-color: #99757b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+  color: #f0f0f0;
+}
+
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #be979e;
+  color: #0a0909;
+  text-align: center;
+}
+
+.footer-content {
+  padding: 10px;
+}
